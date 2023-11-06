@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body{
+  background-color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main_app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.all_label{
+  display: flex;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.all_label_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.length{
+  margin: 0;
+  font-size: 30px;
+  color:  #CA5E07;
+  font-weight: 600;
+}
+
+.break-button{
+  display: flex;
+}
+
+.button{
+  padding: 5px;
+  font-size: 40px;
+  cursor:pointer;
+}
+
+.timer{
+  border: 2px solid #CA5E07;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timer-label{
+  margin: 0;
+}
+
+.timer-text{
+  margin: 0;
+  font-size: 60px;
+  color: #CA5E07;
+}
+
+.pause-text{
+  font-size: 35px;
+}
+
+#timer-button{
+  flex-direction: row;
 }
