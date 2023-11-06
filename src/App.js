@@ -90,7 +90,7 @@ class App extends React.Component {
 					});
 				}
 			}
-		}, 50);
+		}, 1000);
 	}
 
 	// Fonction pour arrêter le minuteur.
